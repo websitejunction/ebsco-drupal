@@ -1,0 +1,9 @@
+weather_forecast.weather_form:
+  path: '/admin/config/weather_forecast/weather'
+  defaults:
+    _form: '\Drupal\weather_forecast\Form\WeatherForm'
+    _title: 'WeatherForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
