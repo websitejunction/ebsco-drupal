@@ -1,0 +1,5 @@
+name: 'weather_forecast'
+type: module
+description: 'A Weather Forecast Module'
+core: 8.x
+package: 'Custom'

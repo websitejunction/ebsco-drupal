@@ -1,0 +1,8 @@
+services:
+  logger.channel.weather_forecast:
+    parent: logger.channel_base
+    arguments: ['weather_forecast']
+  weather_forecast.default:
+    class: Drupal\weather_forecast\WeatherService
+    arguments: []
+

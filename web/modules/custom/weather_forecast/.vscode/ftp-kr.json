@@ -1,0 +1,16 @@
+{
+    "host": "209.182.212.225",
+    "username": "willberm",
+    "password": "Mqsld44Adjpf78",
+    "remotePath": "public_html/ebsco_working",
+    "protocol": "ftp",
+    "port": 21,
+    "fileNameEncoding": "utf8",
+    "autoUpload": true,
+    "autoDelete": false,
+    "autoDownload": false,
+    "ignore": [
+        ".git",
+        "/.vscode"
+    ]
+}
