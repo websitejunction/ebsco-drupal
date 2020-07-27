@@ -1,0 +1,6 @@
+weather_forecast_style:
+  version: 1.x
+  css:
+    theme:
+      assets/css/weather_forecast_style.css: {}
+      

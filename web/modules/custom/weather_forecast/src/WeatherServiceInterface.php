@@ -9,5 +9,6 @@ interface WeatherServiceInterface {
     
     public function get_weather();
     public function get_latlon();
+    public function getUserIP();
 
 }

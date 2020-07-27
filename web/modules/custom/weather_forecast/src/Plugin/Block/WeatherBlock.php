@@ -9,7 +9,7 @@ use Drupal\Core\Block\BlockBase;
  *
  * @Block(
  *  id = "weather_block",
- *  admin_label = @Translation("Weather block"),
+ *  admin_label = @Translation("Weather Forecast"),
  * )
  */
 class WeatherBlock extends BlockBase {
@@ -26,11 +26,12 @@ class WeatherBlock extends BlockBase {
     \Drupal::logger('weather_forecast')->notice("item array: <pre>" .print_r($items,TRUE)."</pre>");
     $build = [];
     $build['#theme'] = 'weather_block';
-    $build['weather_block']['#markup'] = '<p>' . $items['city'] . '</p>';
+    //$build['weather_block']['#markup'] = '<p>' . $items['city'] . '</p>';
     return array(
       '#theme'  => 'weather_block',
       //'#image'  => $image_url,
-      '#items'  => $items
+      '#items'  => $items,
+      
       );
   }
 

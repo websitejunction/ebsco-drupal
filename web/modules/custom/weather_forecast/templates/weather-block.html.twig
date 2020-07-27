@@ -15,7 +15,8 @@
     {% for value in content %}
         <p>{{value}}</p>
     {% endfor %}
-    <p>{{ items.city }}</p>
-    <p>{{ items.country }}</p>
-    <p>{{ items.temp }}</p>
+    <div class="weather-icon"><span class="weather-icon"><img src="http://openweathermap.org/img/wn/{{ items.icon }}.png" /></span>{{ items.description }}</div>
+    <div class="weather-city">{{ items.city }}</div>
+    <div class="weather-country">{{ items.country }}</div>
+    <div class="weather-temp">{{ items.temp }}</div>
 </div>
