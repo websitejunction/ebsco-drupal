@@ -31,6 +31,11 @@ class WeatherBlock extends BlockBase {
       '#theme'  => 'weather_block',
       //'#image'  => $image_url,
       '#items'  => $items,
+      '#attached' => [
+        'library' => [
+          'weather_forecast/weather_forecast_style',
+        ],
+      ],
       
       );
   }

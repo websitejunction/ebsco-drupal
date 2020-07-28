@@ -39,6 +39,6 @@ function weather_forecast_theme() {
 /** 
 * Css hook 
 **/
-function weather_forecast_page_attachments(array &$attachments) {
-  $attachments['#attached']['library'][] = 'weather_forecast/weather_forecast_style';
-}
+//function weather_forecast_page_attachments(array &$attachments) {
+ // $attachments['#attached']['library'][] = 'weather_forecast/weather_forecast_style';
+//}
