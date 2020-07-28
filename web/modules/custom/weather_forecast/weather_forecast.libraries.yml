@@ -3,4 +3,8 @@ weather_forecast_style:
   css:
     theme:
       assets/css/weather_forecast_style.css: {}
+  js:
+    assets/js/weather_forecast_js.js: {}
+
+
       
