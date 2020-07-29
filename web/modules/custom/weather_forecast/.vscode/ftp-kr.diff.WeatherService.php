@@ -89,9 +89,5 @@ class WeatherService implements WeatherServiceInterface {
      return FALSE;
    } 
   }
-  //Celsius to fahrenheit
-  public function celsius_to_fahrenheit($temp) {
-	  $fahrenheit = $temp * 9/5 + 32;
-	    return $fahrenheit;
-  }
+  public
 }

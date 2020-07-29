@@ -51,6 +51,12 @@
           "modified": false
         },
         "assets": {
+          ".DS_Store": {
+            "type": "-",
+            "size": 6148,
+            "lmtime": 1595895030980,
+            "modified": false
+          },
           "css": {
             ".DS_Store": {
               "type": "-",
@@ -74,18 +80,20 @@
             "weather-mod.css": {},
             "weather_forecast_style.css": {
               "type": "-",
-              "size": 35,
-              "lmtime": 1595883477000,
+              "size": 1021,
+              "lmtime": 1595908143524,
               "modified": false
             }
           },
-          "untitled folder": {},
-          ".DS_Store": {
-            "type": "-",
-            "size": 6148,
-            "lmtime": 1595822933000,
-            "modified": false
-          }
+          "js": {
+            "weather_forecast_js.js": {
+              "type": "-",
+              "size": 565,
+              "lmtime": 1595896837743,
+              "modified": false
+            }
+          },
+          "untitled folder": {}
         },
         "backup.tar.gz": {
           "type": "-",
@@ -149,17 +157,17 @@
             "Block": {
               "WeatherBlock.php": {
                 "type": "-",
-                "size": 852,
-                "lmtime": 1595885601000,
+                "size": 971,
+                "lmtime": 1595899435245,
                 "modified": false
               }
             }
           },
           "WeatherService.php": {
             "type": "-",
-            "size": 3020,
-            "lmtime": 1595827253000,
-            "modified": false
+            "size": 3080,
+            "lmtime": 1595916269493,
+            "modified": true
           },
           "WeatherServiceInterface.php": {
             "type": "-",
@@ -171,8 +179,8 @@
         "templates": {
           "weather-block.html.twig": {
             "type": "-",
-            "size": 620,
-            "lmtime": 1595822488000,
+            "size": 850,
+            "lmtime": 1595908821303,
             "modified": false
           }
         },
@@ -193,7 +201,13 @@
         "weather_forecast.info.yml": {
           "type": "-",
           "size": 107,
-          "lmtime": 1595882354000,
+          "lmtime": 1595887001354,
+          "modified": false
+        },
+        "weather_forecast.libraries.yml": {
+          "type": "-",
+          "size": 161,
+          "lmtime": 1595899501452,
           "modified": false
         },
         "weather_forecast.links.menu.yml": {
@@ -204,9 +218,9 @@
         },
         "weather_forecast.module": {
           "type": "-",
-          "size": 909,
-          "lmtime": 1595885130000,
-          "modified": false
+          "size": 755,
+          "lmtime": 1595898013322,
+          "modified": true
         },
         "weather_forecast.routing.yml": {
           "type": "-",

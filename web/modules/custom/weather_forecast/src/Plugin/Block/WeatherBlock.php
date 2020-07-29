@@ -23,6 +23,8 @@ class WeatherBlock extends BlockBase {
       $items = array();
 
     }
+    
+    $items['tempf'] = $weather_service->celsius_to_fahrenheit($items['temp']);
     \Drupal::logger('weather_forecast')->notice("item array: <pre>" .print_r($items,TRUE)."</pre>");
     $build = [];
     $build['#theme'] = 'weather_block';
