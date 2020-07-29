@@ -2,12 +2,6 @@
   "ftp://209.182.212.225:21@willberm": {
     "public_html": {
       "ebsco_working": {
-        ".DS_Store": {
-          "type": "-",
-          "size": 6148,
-          "lmtime": 1595822928000,
-          "modified": false
-        },
         ".editorconfig": {
           "type": "-",
           "size": 357,
@@ -50,51 +44,6 @@
           "lmtime": 0,
           "modified": false
         },
-        "assets": {
-          ".DS_Store": {
-            "type": "-",
-            "size": 6148,
-            "lmtime": 1595895030980,
-            "modified": false
-          },
-          "css": {
-            ".DS_Store": {
-              "type": "-",
-              "size": 6148,
-              "lmtime": 1595823173000,
-              "modified": false
-            },
-            "untitled folder": {},
-            "weather-forecast-style.css": {
-              "type": "-",
-              "size": 35,
-              "lmtime": 1595881938000,
-              "modified": false
-            },
-            "weather-mod-style.css": {
-              "type": "-",
-              "size": 33,
-              "lmtime": 1595825343000,
-              "modified": false
-            },
-            "weather-mod.css": {},
-            "weather_forecast_style.css": {
-              "type": "-",
-              "size": 1021,
-              "lmtime": 1595908143524,
-              "modified": false
-            }
-          },
-          "js": {
-            "weather_forecast_js.js": {
-              "type": "-",
-              "size": 565,
-              "lmtime": 1595896837743,
-              "modified": false
-            }
-          },
-          "untitled folder": {}
-        },
         "backup.tar.gz": {
           "type": "-",
           "size": 32128606,
@@ -125,12 +74,6 @@
           "sync": {}
         },
         "drush": {},
-        "home.php": {
-          "type": "-",
-          "size": 9686,
-          "lmtime": 0,
-          "modified": false
-        },
         "load.environment.php": {
           "type": "-",
           "size": 321,
@@ -145,6 +88,28 @@
         },
         "scripts": {},
         "src": {
+          "Plugin": {
+            "Block": {
+              "WeatherBlock.php": {
+                "type": "-",
+                "size": 839,
+                "lmtime": 1595558823308,
+                "modified": false
+              }
+            }
+          },
+          "WeatherService.php": {
+            "type": "-",
+            "size": 1213,
+            "lmtime": 1595559784894,
+            "modified": false
+          },
+          "WeatherServiceInterface.php": {
+            "type": "-",
+            "size": 202,
+            "lmtime": 1595558998856,
+            "modified": false
+          },
           "Form": {
             "WeatherForm.php": {
               "type": "-",
@@ -152,75 +117,15 @@
               "lmtime": 1595566320261,
               "modified": false
             }
-          },
-          "Plugin": {
-            "Block": {
-              "WeatherBlock.php": {
-                "type": "-",
-                "size": 971,
-                "lmtime": 1595899435245,
-                "modified": false
-              }
-            }
-          },
-          "WeatherService.php": {
-            "type": "-",
-            "size": 3080,
-            "lmtime": 1595916269493,
-            "modified": true
-          },
-          "WeatherServiceInterface.php": {
-            "type": "-",
-            "size": 202,
-            "lmtime": 1595558998856,
-            "modified": false
           }
         },
-        "templates": {
-          "weather-block.html.twig": {
-            "type": "-",
-            "size": 850,
-            "lmtime": 1595908821303,
-            "modified": false
-          }
-        },
-        "untitled folder": {},
+        "templates": {},
         "vendor": {},
-        "weather-forecast.libraries.yml": {
-          "type": "-",
-          "size": 112,
-          "lmtime": 1595883623000,
-          "modified": false
-        },
-        "weather-widget.libraries.yml": {
-          "type": "-",
-          "size": 139,
-          "lmtime": 1595828575000,
-          "modified": false
-        },
-        "weather_forecast.info.yml": {
-          "type": "-",
-          "size": 107,
-          "lmtime": 1595887001354,
-          "modified": false
-        },
-        "weather_forecast.libraries.yml": {
-          "type": "-",
-          "size": 161,
-          "lmtime": 1595899501452,
-          "modified": false
-        },
         "weather_forecast.links.menu.yml": {
           "type": "-",
           "size": 206,
           "lmtime": 1595566320298,
           "modified": false
-        },
-        "weather_forecast.module": {
-          "type": "-",
-          "size": 755,
-          "lmtime": 1595898013322,
-          "modified": true
         },
         "weather_forecast.routing.yml": {
           "type": "-",

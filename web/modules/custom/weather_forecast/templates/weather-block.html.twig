@@ -23,7 +23,12 @@
       <div id="weather-icon-desc">
         <div class="weather-icon"><img src="http://openweathermap.org/img/wn/{{ items.icon }}.png" /><div class="weather-description">{{ items.description }}</div></div>
       </div>
-      <div class="weather-temp-c">{{ items.temp|round }}º C</div>
-      <div class="weather-temp-f">{{ items.tempf|round }}º F</div>
+      <div id="weather-temp-c" style="display:block;">{{ items.temp|round }}º C</div>
+      <div id="weather-temp-f" style="display:none;">{{ items.tempf|round }}º F</div>
     </div>
+    <p style="font-weight:bold; clear:both;">
+      <a href="javascript:SwapDivs('weather-temp-c','weather-temp-f')">C/F</a>
+    </p>
+
+
 </div>

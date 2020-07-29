@@ -35,13 +35,13 @@
             font-weight: 500;
         }
         
-        .weather-temp-c {
+        #weather-temp-c {
             float: left;
             width: 100%;
             font-size: 35px;
         }
         
-        .weather-temp-f {
+        #weather-temp-f {
             float: left;
             width: 100%;
             font-size: 35px;
