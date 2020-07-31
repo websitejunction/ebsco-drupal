@@ -38,7 +38,6 @@ class WeatherService implements WeatherServiceInterface {
     $ipaddress = $weather_service->getUserIP();
     $config = \Drupal::config('weather_forecast.weather');
     $GMApiKey = $config->get('google_map_api_key');
-    
     $uri = 'http://api.ipstack.com/'. $ipaddress .'?access_key='. $GMApiKey;
     
   try {
@@ -92,6 +91,6 @@ class WeatherService implements WeatherServiceInterface {
   //Celsius to fahrenheit
   public function celsius_to_fahrenheit($temp) {
 	  $fahrenheit = $temp * 9/5 + 32;
-	    return $fahrenheit ;
+	    return $fahrenheit;
   }
 }

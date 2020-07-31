@@ -28,10 +28,8 @@ class WeatherBlock extends BlockBase {
     \Drupal::logger('weather_forecast')->notice("item array: <pre>" .print_r($items,TRUE)."</pre>");
     $build = [];
     $build['#theme'] = 'weather_block';
-    //$build['weather_block']['#markup'] = '<p>' . $items['city'] . '</p>';
     return array(
       '#theme'  => 'weather_block',
-      //'#image'  => $image_url,
       '#items'  => $items,
       '#attached' => [
         'library' => [

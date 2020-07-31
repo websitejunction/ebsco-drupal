@@ -1,48 +1,52 @@
-        #weather-forecast-wrapper {
-            width: 25%;
-        }
-        
-        .weather-icon {
-            display: flex;
-            align-items: center;
-            clear: both;
-            margin-left: -10px;
-        }
-        
-        #weather-city-country {
-            height: 50px;
-            display: flex;
-            align-items: center;
-        }
-        
-        .weather-city {
-            float: left;
-            font-size: 18px;
-            font-weight: 700;
-        }
-        
-        #weather-icon-desc {
-            clear: both;
-            display: flex;
-        }
-        
-        .weather-country {
-            float: left;
-        }
-        
-        .weather-description {
-            font-size: 18px;
-            font-weight: 500;
-        }
-        
-        #weather-temp-c {
-            float: left;
-            width: 100%;
-            font-size: 35px;
-        }
-        
-        #weather-temp-f {
-            float: left;
-            width: 100%;
-            font-size: 35px;
-        }
+       #block-weatherforecast .content {
+           float: left;
+       }
+       
+       .weather-icon {
+           display: flex;
+           align-items: center;
+           clear: both;
+           margin-left: -10px;
+       }
+       
+       #weather-city-country {
+           height: 50px;
+           display: flex;
+           align-items: center;
+           color: #8B0000;
+       }
+       
+       .weather-city {
+           float: left;
+           font-size: 18px;
+           font-weight: 700;
+           color: #8B0000;
+       }
+       
+       #weather-icon-desc {
+           clear: both;
+           display: flex;
+       }
+       
+       .weather-country {
+           float: left;
+       }
+       
+       .weather-description {
+           font-size: 18px;
+           font-weight: 500;
+       }
+       
+       #weather-temp-c {
+           float: left;
+           width: 100%;
+           font-size: 35px;
+           color: #008080;
+       }
+       
+       #weather-temp-f {
+           float: left;
+           width: 100%;
+           font-size: 35px;
+           color: #008080;
+       }
