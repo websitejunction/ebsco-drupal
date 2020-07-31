@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bede6fc71ac2fb42c982c81822dbc76a",
+    "content-hash": "fef27e36599d8133f24c2fe170a2ec69",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2820,6 +2820,52 @@
                 "drupal"
             ],
             "time": "2020-05-29T11:36:27+00:00"
+        },
+        {
+            "name": "drupal/weather_widget",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/weather_widget.git",
+                "reference": "ac31d6c39f5eba9545b755faad32854422c9734a"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1563886088",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ahmedx",
+                    "homepage": "https://www.drupal.org/user/3619994"
+                },
+                {
+                    "name": "bamlhes",
+                    "homepage": "https://www.drupal.org/user/3280471"
+                }
+            ],
+            "description": "Provide weather widget displayed as block which can be added from blocks settings.",
+            "homepage": "https://www.drupal.org/project/weather_widget",
+            "support": {
+                "source": "https://git.drupalcode.org/project/weather_widget"
+            },
+            "time": "2019-07-23T12:42:31+00:00"
         },
         {
             "name": "drush/drush",
@@ -10017,7 +10063,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/weather_widget": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

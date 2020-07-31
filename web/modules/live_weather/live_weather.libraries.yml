@@ -1,0 +1,8 @@
+live_weather_style:
+  version: 1.x
+  css:
+    theme:
+      assets/css/live_weather_style.css: {}
+
+
+      
