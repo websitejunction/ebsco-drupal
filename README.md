@@ -7,6 +7,8 @@ Since I'd taken a lot of time to accomplish what I have, there were a few items 
 1. Create permissions so that unauthenticated users see a "Please Log In" message when on the homepage.
 
 2. A partial creation of the Content Type called Vehicle.
+3. Create a drag and drop for the Weather Forecast Block in a Layout.
+4. The preprocess function to alter the temperature unit.
 
 ## Weather Forecast Module
 
