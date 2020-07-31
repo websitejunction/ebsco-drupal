@@ -16,7 +16,7 @@ The module was initialized using the console and later configured locally. You c
 
 ## Additional Contrib Module (Live Weather)
 
-I found the module [here](https://ftp.drupal.org/files/projects/live_weather-8.x-2.5.zip). 
+I found the module [here](https://www.drupal.org/project/live_weather). 
 
 ## A Special Thank You
 
