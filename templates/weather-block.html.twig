@@ -1,0 +1,29 @@
+{#
+/**
+* @file
+* Default theme implementation to display a block.
+*
+* @see template_preprocess_block()
+*
+* @ingroup themeable
+*/
+#}
+{% set classes = [
+    'clear-both',
+] %}
+<div{{ attributes.addClass(classes) }}>
+    {% for value in content %}
+        <p>{{value}}</p>
+    {% endfor %}
+    <div id="weather-forecast-wrapper">
+      <div id="weather-city-country">
+        <div class="weather-city">{{ items.city }}, {{ items.country }}</div>
+        <p>{{ items.timezone }}</p>
+      </div>
+      <div id="weather-icon-desc">
+        <div class="weather-icon"><img src="http://openweathermap.org/img/wn/{{ items.icon }}.png" /><div class="weather-description">{{ items.description }}</div></div>
+      </div>
+      <div class="weather-temp-c">{{ items.temp }}º C</div>
+      <div class="weather-temp-f">{{ items.temp }}º F</div>
+    </div>
+</div>
