@@ -16,6 +16,10 @@ Since I'd taken a lot of time to accomplish what I have, there were a few items 
 
 The module was initialized using the console and later configured locally. You can install the module by uploading the modules archive through Extend>Install new module.
 
+The admin config for is in Configuration>System>Weather Form Config. This is where you add Openweather's API key and Google's Map API Key. 
+
+The app will grab the current weather from the visitor's IP address and display the results in a block on the front page.
+
 ## Additional Contrib Module (Live Weather)
 
 I found the module [here](https://www.drupal.org/project/live_weather). 
