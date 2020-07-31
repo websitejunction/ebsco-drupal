@@ -1,6 +1,8 @@
 # EBSCO Drupal Technical Exam
 
-The project was created using [Composer](https://getcomposer.org/). 
+The project was created using [Composer](https://getcomposer.org/).
+
+You can see a live version [here](http://ebsco.willbermudez.com/) with the contrib Live Weather module on the left and the custom Weather Forecast on the right. 
 
 Since I'd taken a lot of time to accomplish what I have, there were a few items I did not address yet:
 
