@@ -18,7 +18,7 @@ I found the module [here](https://ftp.drupal.org/files/projects/live_weather-8.x
 
 ## A Special Thank You
 
-I must admit, this project was extrememly challenging for me and regardless of the outcome on my employment with EBSCO, it's a big win for me since I learned a great deal about Drupal, Composer and console in the process.
+This project was extremely challenging for me and regardless of the outcome of my employment with EBSCO, it's a big win for me since I learned a great deal about Drupal, Composer and console in the process.
 
 I appreciate the consideration and efforts put in by your team. Thanks to all of you. 
 
